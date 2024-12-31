@@ -391,6 +391,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• owner
 ┃◈┃• menu
 ┃◈┃• menu2
+┃◈┃• alquran
 ┃◈┃• listcmd
 ┃◈┃• allmenu
 ┃◈┃• repo
@@ -405,6 +406,10 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• ping 
 ┃◈┃• gjid
 ┃◈┃• jid
+┃◈┃• logo
+┃◈┃• img2url
+┃◈┃• tourl
+┃◈┃• font
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.CAPTION}`;
