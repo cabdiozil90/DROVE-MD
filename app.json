@@ -1,8 +1,8 @@
 {
-  "name": "KHAN-AI",
-  "description": "Javascript WhatsApp bot made by Jᴀᴡᴀᴅ TᴇᴄʜX",
-  "logo": "https://raw.githubusercontent.com/JawadYTX/KHAN-DATA/refs/heads/main/logo/KHAN.png",
-  "keywords": ["khan-ai"],
+  "name": "DROVE-MD",
+  "description": "Multidevice WhatsApp bot made by Walk-Drove",
+  "logo": "https://i.ibb.co/TBpHd9y/Manul-Ofc-X.jpg",
+  "keywords": ["DROVE-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,13 +16,13 @@
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": false,
-      "value": "https://files.catbox.moe/x3bdmi.jpg"
+      "value": "https://i.ibb.co/TBpHd9y/Manul-Ofc-X.jpg"
     }, 
     
-    "LIVE_MSG": {
+    "ALIVE_MSG": {
       "description": "paste your alive message hear.",
       "required": false,
-      "value": "> Zinda Hun Yar *KHAN-AI*⚡"
+      "value": "> Hii Dear I'm Online...⚡"
     },
     
     "PREFIX": {
@@ -79,33 +79,33 @@
     "AUTO_STATUS__MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY KHAN-AI 🖤*"
+      "value": "*𝒀𝒐𝒖𝒓 𝑺𝒕𝒂𝒕𝒖𝒔 𝑺𝒆𝒆𝒏 𝑱𝒖𝒔𝒕 𝑵𝒐𝒘 𝑩𝒚 "𝑫𝑹𝑶𝑽𝑬-𝑴𝑫"*"
     }, 
 
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "Jᴀᴡᴀᴅ TᴇᴄʜX"
+      "value": "𝐖𝐚𝐥𝐤-𝐃𝐫𝐨𝐯𝐞"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "92310344XXXX"
+      "value": "92347172XXXX"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "KHAN-AI"
+      "value": "DROVE-MD"
 
       }, 
 
     "ANTI_CALL": {
       "description": "true this to reject calls automatically .",
       "required": false,
-      "value": "fals"
+      "value": "false"
     }, 
 
     "ANTI_LINK": {
@@ -124,7 +124,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX*"
+      "value": "*© 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐖𝐀𝐋𝐊-𝐃𝐑𝐎𝐕𝐄*"
     },
 
       "DELETE_LINKS": {
