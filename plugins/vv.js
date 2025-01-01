@@ -9,7 +9,7 @@ const viewOnceCommand = {
   viewOnceCommand.use = ".vv";
   viewOnceCommand.filename = __filename;
   
-  Hamza(viewOnceCommand, async (
+  cmd(viewOnceCommand, async (
     conn, // Represents the bot instance
     mek, // Message object
     store, // Data store
