@@ -13,16 +13,16 @@ try{
 let repo =`
 *╭──────────────●●►*
 > *BOT OWNER:*
-*|* *M.Farhan Ali*
+*|* *𝙼𝚛 𝚆𝚊𝚕𝚔-𝙳𝚛𝚘𝚟𝚎 (𝓕𝓪𝓻𝓱𝓪𝓷 𝓐𝓵𝓲)*
 
-> *PANHWAR MD REPO:*
+> *DROVE-MD REPO:*
 *|* *https://github.com/FarhanAli690/DROVE-MD*
 
 > *SUPPORT CHANNEL:*
 *|* *https://whatsapp.com/channel/0029Vank3vaLikg5ldoNdd0U*
 *╰──────────────●●►*
 
-> *POWERED BY: 'WALK-DROVE'*
+> *➥POWERED BY: WALK-DROVE*
 `
 await conn.sendMessage(from, { text: repo ,
   contextInfo: {
@@ -32,7 +32,7 @@ await conn.sendMessage(from, { text: repo ,
     isForwarded: false,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '12036323288171807@newsletter',
-      newsletterName: "UMAR",
+      newsletterName: "♛︎𝗪𝗮𝗹𝗸-𝗗𝗿𝗼𝘃𝗲࿐",
       serverMessageId: 999
     },
 externalAdReply: { 
