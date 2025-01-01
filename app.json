@@ -86,7 +86,7 @@
       "description": "Type Bot Owner Name.",
       "required": false,
       "value": "𝐖𝐚𝐥𝐤-𝐃𝐫𝐨𝐯𝐞"
-}, 
+    }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
