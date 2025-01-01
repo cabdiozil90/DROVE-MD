@@ -29,9 +29,9 @@ await conn.sendMessage(from, { text: repo ,
     mentionedJid: [ '' ],
     groupMentions: [],
     forwardingScore: 999,
-    isForwarded: false,
+    isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: '12036323288171807@newsletter',
+      newsletterJid: '120363328183826270@newsletter',
       newsletterName: "♛︎𝗪𝗮𝗹𝗸-𝗗𝗿𝗼𝘃𝗲࿐",
       serverMessageId: 999
     },
