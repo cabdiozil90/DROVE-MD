@@ -292,20 +292,20 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃▸📖 COMMAND: .trt 
 ┃▸ℹ️ change languages 
 ╰━━━━━━━━━━━━⪼
->  *ᴘᴏᴡᴅᴇʀᴇᴅ ʙʏ ᴡᴀʟᴋ-ᴅʀᴏᴠᴇ*`;
+>  *ᴘᴏᴡᴅᴇʀᴇᴅ ʙʏ ᴀᴡᴀɪsxᴄʜᴜᴢᴢᴀ*`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/xsXcQbc/Manul-Ofc-X.jpg` },
+                image: { url: `https://i.imgur.com/UfzyhWN.jpeg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363328183826270@newsletter',
-                        newsletterName: 'ᴡᴀʟᴋ-ᴅʀᴏᴠᴇ',
+                        newsletterJid: '120363321103874131@newsletter',
+                        newsletterName: 'ᴀɴsᴀʀ-ᴘᴀɴʜᴡᴀʀ',
                         serverMessageId: 143
                     }
                 }
